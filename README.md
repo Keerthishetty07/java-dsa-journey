@@ -24,9 +24,20 @@ Learning: Maintaining the minimum value so far eliminates the need for pair comp
 
 ---
 
+### ✅ Day 3 — Maximum Subarray (LeetCode #53)
+Topic: Arrays / Dynamic Programming  
+Pattern: Kadane’s Algorithm (State Compression)  
+Time: O(n) | Space: O(1)  
+
+Learning:  
+Instead of checking all subarrays, maintaining a running sum and resetting it when it becomes harmful leads to an optimal linear-time solution.
+
+---
+
 ## 🧠 Patterns Learned
 ✔ HashMap Lookup  
 ✔ Prefix Minimum (Greedy) 
+✔ Kadane’s Algorithm (Running Sum / State Reset)
 
 ---
 
