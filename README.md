@@ -34,10 +34,25 @@ Instead of checking all subarrays, maintaining a running sum and resetting it wh
 
 ---
 
+✅ Day 4 — Merge Intervals (LeetCode #56)  
+Topic: Arrays / Sorting  
+Pattern: Interval Merging (Sort + Greedy)  
+Time Complexity: O(n log n)  
+Space Complexity: O(n)
+
+Key Learning:
+Sorting intervals by start time simplifies overlap detection. Instead of comparing every pair, tracking only the last merged interval allows a clean linear merge process.
+Insight:
+Preprocessing through sorting often transforms complex comparison problems into simple single-pass solutions.
+
+---
+
 ## 🧠 Patterns Learned
 ✔ HashMap Lookup  
 ✔ Prefix Minimum (Greedy) 
+
 ✔ Kadane’s Algorithm (Running Sum / State Reset)
+✔ Interval Merging (Sort + Greedy)
 
 ---
 
