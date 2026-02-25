@@ -34,7 +34,7 @@ Instead of checking all subarrays, maintaining a running sum and resetting it wh
 
 ---
 
-✅ Day 4 — Merge Intervals (LeetCode #56)  
+### ✅ Day 4 — Merge Intervals (LeetCode #56)  
 Topic: Arrays / Sorting  
 Pattern: Interval Merging (Sort + Greedy)  
 Time Complexity: O(n log n)  
@@ -47,12 +47,27 @@ Preprocessing through sorting often transforms complex comparison problems into 
 
 ---
 
+### ✅ Day 5 — Product of Array Except Self (LeetCode #238)
+Topic: Arrays
+Approach: Prefix & Suffix Product
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Key Learning:
+Storing prefix products in the result array and multiplying with a running suffix product avoids division and reduces extra space usage.
+
+---
+
 ## 🧠 Patterns Learned
 ✔ HashMap Lookup  
-✔ Prefix Minimum (Greedy) 
-
+✔ Prefix Minimum (Greedy)
 ✔ Kadane’s Algorithm (Running Sum / State Reset)
 ✔ Interval Merging (Sort + Greedy)
+✔ Prefix Product
+✔ Suffix Product
+✔ Two-Pass Array Traversal
+✔ Space Optimization (no extra arrays)
+✔ Avoiding Division Constraint
 
 ---
 
