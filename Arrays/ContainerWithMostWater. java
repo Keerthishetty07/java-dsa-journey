@@ -1,0 +1,32 @@
+import java.util.*;
+
+/**
+ * Problem: Container With Most Water (LeetCode #11)
+ * Topic: Arrays
+ * Pattern: Two Pointers
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
+public class Day7_ContainerWithMostWater {
+
+    public static int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxWater = 0;
+
+        while (left < right) {
+            int h = Math.min(height[left], height[right]);
+            int width = right - left;
+            int area = h * width;
+
+            maxWater = Math.max(maxWater, area);
+
+            // Move smaller height pointer
+            if (height[left] < height[right]) left++;
+            else right--;
+        }
+        return maxWater;
+    }
+}
