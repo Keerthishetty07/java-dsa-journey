@@ -58,6 +58,28 @@ Storing prefix products in the result array and multiplying with a running suffi
 
 ---
 
+✅ Day 6 — 3Sum (LeetCode #15)  
+Topic: Arrays / Sorting  
+Pattern: Two Pointers with Duplicate Handling  
+Time Complexity: O(n²)  
+Space Complexity: O(1)
+
+Key Learning:
+Sorting converts the problem into a two-pointer search, while skipping duplicates prevents repeated triplets.
+
+---
+
+✅ Day 7 — Container With Most Water (LeetCode #11)  
+Topic: Arrays  
+Pattern: Two Pointers  
+Time Complexity: O(n)  
+Space Complexity: O(1)
+
+Key Learning:
+Maximum area depends on width and the smaller boundary height. Moving the smaller pointer is the only way to potentially increase area.
+
+---
+
 ## 🧠 Patterns Learned
 ✔ HashMap Lookup  
 ✔ Prefix Minimum (Greedy)
@@ -68,6 +90,14 @@ Storing prefix products in the result array and multiplying with a running suffi
 ✔ Two-Pass Array Traversal
 ✔ Space Optimization (no extra arrays)
 ✔ Avoiding Division Constraint
+✔ Two Pointer Pair Search
+✔ Sorting + Reduction Technique
+✔ Duplicate Skipping Strategy
+✔ Fix-one-element technique
+✔ Two Pointer Boundary Shrinking
+✔ Greedy Pointer Movement
+✔ Width vs Height Tradeoff
+✔ Elimination Strategy
 
 ---
 
