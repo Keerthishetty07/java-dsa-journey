@@ -108,8 +108,10 @@ Topic: Arrays / Matrix
 Pattern: In-Place Marker Technique
 Time Complexity: O(m × n)
 Space Complexity: O(1)
+
 Key Learning:
 Using the first row and first column as markers allows the algorithm to track which rows and columns should be zeroed without allocating extra memory.
+
 Insight:
 Careful use of existing array space can eliminate the need for auxiliary data structures.
 
@@ -120,8 +122,10 @@ Topic: Arrays
 Pattern: Array Reversal Technique
 Time Complexity: O(n)
 Space Complexity: O(1)
+
 Key Learning:
 Reversing the entire array and then reversing subsegments achieves rotation efficiently without extra space.
+
 Insight:
 Breaking a complex transformation into multiple reversible operations simplifies the implementation.
 
@@ -132,8 +136,10 @@ Topic: Arrays / Bit Manipulation
 Pattern: Mathematical Sum / XOR Trick
 Time Complexity: O(n)
 Space Complexity: O(1)
+
 Key Learning:
 Using the expected sum formula n(n+1)/2 or XOR properties helps identify the missing value without sorting or additional memory.
+
 Insight:
 Mathematical properties often replace iterative comparisons in array problems.
 
@@ -144,8 +150,10 @@ Topic: Strings
 Pattern: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(n)
+
 Key Learning:
 Expanding and shrinking a window while tracking characters in a set efficiently maintains a substring with unique characters.
+
 Insight:
 Sliding window techniques transform many brute-force substring problems into linear time solutions.
 
@@ -156,8 +164,10 @@ Topic: Strings / Hashing
 Pattern: Character Frequency Counting
 Time Complexity: O(n)
 Space Complexity: O(1)
+
 Key Learning:
 Tracking character counts in a fixed-size array provides a faster alternative to sorting for anagram detection.
+
 Insight:
 When dealing with fixed character sets, frequency arrays are often the most efficient structure.
 
@@ -168,8 +178,10 @@ Topic: Strings / Hashing
 Pattern: Sorted Key Grouping
 Time Complexity: O(n × k log k)
 Space Complexity: O(n)
+
 Key Learning:
 Sorting characters of each word produces a canonical representation that allows grouping of anagrams using a HashMap.
+
 Insight:
 Transforming data into a normalized form simplifies grouping and comparison tasks.
 
@@ -180,8 +192,10 @@ Topic: Strings
 Pattern: Expand Around Center
 Time Complexity: O(n²)
 Space Complexity: O(1)
+
 Key Learning:
 Every character (and pair of characters) can act as the center of a palindrome, allowing expansion outward to detect palindromes efficiently.
+
 Insight:
 Recognizing structural symmetry can drastically reduce unnecessary substring checks.
 
@@ -192,8 +206,10 @@ Topic: Strings / Parsing
 Pattern: Controlled State Traversal
 Time Complexity: O(n)
 Space Complexity: O(1)
+
 Key Learning:
 Handling whitespace, sign detection, digit extraction, and overflow conditions step-by-step ensures correct integer conversion.
+
 Insight:
 Robust input parsing requires careful boundary checks and overflow handling.
 
@@ -204,8 +220,10 @@ Topic: Strings
 Pattern: Reverse Traversal / String Manipulation
 Time Complexity: O(n)
 Space Complexity: O(n)
+
 Key Learning:
 Trimming spaces and reversing the word order produces a clean result without modifying individual characters.
+
 Insight:
 Breaking text processing problems into tokenization and reconstruction simplifies implementation.
 
