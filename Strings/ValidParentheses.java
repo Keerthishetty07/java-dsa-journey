@@ -2,47 +2,46 @@
 Day 17 — Valid Parentheses (LeetCode #20)
 
 Topic: Strings
-Approach: Counter Tracking
+Approach: Pair elimination using StringBuilder
 
 Problem:
-Given a string containing only '(' and ')',
-determine if the parentheses are valid.
-
-A string is valid if:
-1. Every opening parenthesis '(' has a matching ')'
-2. Parentheses close in the correct order.
+Check if a string containing (), {}, [] is valid.
 
 Approach:
-Traverse the string and maintain a counter.
-- Increment the counter for '('
-- Decrement the counter for ')'
-- If the counter becomes negative at any point, return false
-- At the end, the counter must be zero for a valid string
+Traverse characters and build a new string.
+If the current character forms a valid pair with the last
+character in the builder, remove the last character.
+Otherwise, append the current character.
 
 Time Complexity: O(n)
-Space Complexity: O(1)
+Space Complexity: O(n)
 */
 
 public class Solution {
 
     public boolean isValid(String s) {
 
-        int count = 0;
+        StringBuilder sb = new StringBuilder();
 
         for (char c : s.toCharArray()) {
 
-            if (c == '(') {
-                count++;
-            } 
-            else if (c == ')') {
-                count--;
+            int len = sb.length();
+
+            if (len > 0) {
+                char last = sb.charAt(len - 1);
+
+                if ((last == '(' && c == ')') ||
+                    (last == '{' && c == '}') ||
+                    (last == '[' && c == ']')) {
+
+                    sb.deleteCharAt(len - 1);
+                    continue;
+                }
             }
 
-            if (count < 0) {
-                return false;
-            }
+            sb.append(c);
         }
 
-        return count == 0;
+        return sb.length() == 0;
     }
 }
