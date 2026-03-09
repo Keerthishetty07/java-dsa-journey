@@ -1,49 +1,48 @@
 /*
-Day 17 - Valid Parentheses
-LeetCode #20
+Day 17 — Valid Parentheses (LeetCode #20)
 
-Topic: Stack
-Pattern: Matching Pair Validation
+Topic: Strings
+Approach: Counter Tracking
 
 Problem:
-Given a string containing just the characters
-'(', ')', '{', '}', '[' and ']',
-determine if the input string is valid.
+Given a string containing only '(' and ')',
+determine if the parentheses are valid.
 
 A string is valid if:
-1. Open brackets are closed by the same type.
-2. Open brackets are closed in the correct order.
+1. Every opening parenthesis '(' has a matching ')'
+2. Parentheses close in the correct order.
+
+Approach:
+Traverse the string and maintain a counter.
+- Increment the counter for '('
+- Decrement the counter for ')'
+- If the counter becomes negative at any point, return false
+- At the end, the counter must be zero for a valid string
+
+Time Complexity: O(n)
+Space Complexity: O(1)
 */
 
-import java.util.Stack;
-
-class Solution {
+public class Solution {
 
     public boolean isValid(String s) {
 
-        Stack<Character> stack = new Stack<>();
+        int count = 0;
 
         for (char c : s.toCharArray()) {
 
-            // Push opening brackets
-            if (c == '(' || c == '{' || c == '[') {
-                stack.push(c);
+            if (c == '(') {
+                count++;
+            } 
+            else if (c == ')') {
+                count--;
             }
-            else {
 
-                // If stack empty → invalid
-                if (stack.isEmpty()) {
-                    return false;
-                }
-
-                char top = stack.pop();
-
-                if (c == ')' && top != '(') return false;
-                if (c == '}' && top != '{') return false;
-                if (c == ']' && top != '[') return false;
+            if (count < 0) {
+                return false;
             }
         }
 
-        return stack.isEmpty();
+        return count == 0;
     }
 }
