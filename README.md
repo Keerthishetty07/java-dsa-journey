@@ -26,8 +26,7 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 14 | Longest Palindromic Substring | Strings | Expand Around Center | Medium |
 | 15 | String to Integer (atoi) | Strings / Parsing | Controlled State Traversal | Medium |
 | 16 | Reverse Words in a String | Strings | String Tokenization | Medium |
-| 17 | Valid Parentheses | Stack | Matching Pair Validation | Easy |
-
+| 17 | Valid Parentheses (LeetCode #20) | Strings | Pair Matching (StringBuilder) | Easy |
 ---
 
 ## 📅 Progress Log
@@ -242,16 +241,17 @@ Breaking text processing problems into tokenization and reconstruction simplifie
 ---
 
 ### ✅ Day 17 — Valid Parentheses (LeetCode #20)
-Topic: Stack  
-Pattern: Matching Bracket Validation  
+
+Topic: Strings  
+Pattern: Pair Matching / Bracket Validation  
 Time Complexity: O(n)  
 Space Complexity: O(n)
 
 Key Learning:
-Stacks are ideal for problems that require tracking the most recent element first. By pushing opening brackets and validating them against closing brackets, the algorithm ensures correct order and pairing.
+A StringBuilder can be used to simulate stack-like behavior by storing unmatched brackets. When a closing bracket matches the most recent opening bracket, the previous character is removed.
 
 Insight:
-Problems involving nested structures often become simpler when solved using a stack.
+Problems involving nested structures can be solved by tracking the most recent unmatched element. Even without using an explicit stack, similar behavior can be implemented using dynamic string structures like StringBuilder.
 
 ---
 
