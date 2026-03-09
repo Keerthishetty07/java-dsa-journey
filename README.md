@@ -26,6 +26,7 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 14 | Longest Palindromic Substring | Strings | Expand Around Center | Medium |
 | 15 | String to Integer (atoi) | Strings / Parsing | Controlled State Traversal | Medium |
 | 16 | Reverse Words in a String | Strings | String Tokenization | Medium |
+| 17 | Valid Parentheses | Stack | Matching Pair Validation | Easy |
 
 ---
 
@@ -226,6 +227,20 @@ Trimming spaces and reversing the word order produces a clean result without mod
 
 Insight:
 Breaking text processing problems into tokenization and reconstruction simplifies implementation.
+
+---
+
+### ✅ Day 17 — Valid Parentheses (LeetCode #20)
+Topic: Stack  
+Pattern: Matching Bracket Validation  
+Time Complexity: O(n)  
+Space Complexity: O(n)
+
+Key Learning:
+Stacks are ideal for problems that require tracking the most recent element first. By pushing opening brackets and validating them against closing brackets, the algorithm ensures correct order and pairing.
+
+Insight:
+Problems involving nested structures often become simpler when solved using a stack.
 
 ---
 
