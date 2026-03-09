@@ -82,7 +82,7 @@ Storing prefix products in the result array and multiplying with a running suffi
 
 ---
 
-✅ Day 6 — 3Sum (LeetCode #15)  
+###✅ Day 6 — 3Sum (LeetCode #15)  
 Topic: Arrays / Sorting  
 Pattern: Two Pointers with Duplicate Handling  
 Time Complexity: O(n²)  
@@ -93,7 +93,7 @@ Sorting converts the problem into a two-pointer search, while skipping duplicate
 
 ---
 
-✅ Day 7 — Container With Most Water (LeetCode #11)  
+###✅ Day 7 — Container With Most Water (LeetCode #11)  
 Topic: Arrays  
 Pattern: Two Pointers  
 Time Complexity: O(n)  
@@ -104,7 +104,7 @@ Maximum area depends on width and the smaller boundary height. Moving the smalle
 
 ---
 
-✅ Day 8 — Set Matrix Zeroes (LeetCode #73)
+###✅ Day 8 — Set Matrix Zeroes (LeetCode #73)
 Topic: Arrays / Matrix
 Pattern: In-Place Marker Technique
 Time Complexity: O(m × n)
@@ -118,7 +118,7 @@ Careful use of existing array space can eliminate the need for auxiliary data st
 
 --- 
 
-✅ Day 9 — Rotate Array (LeetCode #189)
+###✅ Day 9 — Rotate Array (LeetCode #189)
 Topic: Arrays
 Pattern: Array Reversal Technique
 Time Complexity: O(n)
@@ -132,7 +132,7 @@ Breaking a complex transformation into multiple reversible operations simplifies
 
 ---
 
-✅ Day 10 — Missing Number (LeetCode #268)
+###✅ Day 10 — Missing Number (LeetCode #268)
 Topic: Arrays / Bit Manipulation
 Pattern: Mathematical Sum / XOR Trick
 Time Complexity: O(n)
@@ -146,7 +146,7 @@ Mathematical properties often replace iterative comparisons in array problems.
 
 ---
 
-✅ Day 11 — Longest Substring Without Repeating Characters (LeetCode #3)
+###✅ Day 11 — Longest Substring Without Repeating Characters (LeetCode #3)
 Topic: Strings
 Pattern: Sliding Window
 Time Complexity: O(n)
@@ -160,7 +160,7 @@ Sliding window techniques transform many brute-force substring problems into lin
 
 ---
 
-✅ Day 12 — Valid Anagram (LeetCode #242)
+###✅ Day 12 — Valid Anagram (LeetCode #242)
 Topic: Strings / Hashing
 Pattern: Character Frequency Counting
 Time Complexity: O(n)
@@ -174,7 +174,7 @@ When dealing with fixed character sets, frequency arrays are often the most effi
 
 ---
 
-✅ Day 13 — Group Anagrams (LeetCode #49)
+###✅ Day 13 — Group Anagrams (LeetCode #49)
 Topic: Strings / Hashing
 Pattern: Sorted Key Grouping
 Time Complexity: O(n × k log k)
@@ -188,7 +188,7 @@ Transforming data into a normalized form simplifies grouping and comparison task
 
 ---
 
-✅ Day 14 — Longest Palindromic Substring (LeetCode #5)
+###✅ Day 14 — Longest Palindromic Substring (LeetCode #5)
 Topic: Strings
 Pattern: Expand Around Center
 Time Complexity: O(n²)
@@ -202,7 +202,7 @@ Recognizing structural symmetry can drastically reduce unnecessary substring che
 
 ---
 
-✅ Day 15 — String to Integer (atoi) (LeetCode #8)
+###✅ Day 15 — String to Integer (atoi) (LeetCode #8)
 Topic: Strings / Parsing
 Pattern: Controlled State Traversal
 Time Complexity: O(n)
@@ -216,7 +216,7 @@ Robust input parsing requires careful boundary checks and overflow handling.
 
 ---
 
-✅ Day 16 — Reverse Words in a String (LeetCode #151)
+###✅ Day 16 — Reverse Words in a String (LeetCode #151)
 Topic: Strings
 Pattern: Reverse Traversal / String Manipulation
 Time Complexity: O(n)
