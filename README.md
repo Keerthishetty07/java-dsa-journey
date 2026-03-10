@@ -27,6 +27,8 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 15 | String to Integer (atoi) | Strings / Parsing | Controlled State Traversal | Medium |
 | 16 | Reverse Words in a String | Strings | String Tokenization | Medium |
 | 17 | Valid Parentheses (LeetCode #20) | Strings | Pair Matching (StringBuilder) | Easy |
+| 18 | Implement strStr() (LeetCode #28) | Strings | Substring Search | Easy | ✅ |
+
 ---
 
 ## 📅 Progress Log
@@ -252,6 +254,21 @@ A StringBuilder can be used to simulate stack-like behavior by storing unmatched
 
 Insight:
 Problems involving nested structures can be solved by tracking the most recent unmatched element. Even without using an explicit stack, similar behavior can be implemented using dynamic string structures like StringBuilder.
+
+---
+
+### ✅ Day 18 — Implement strStr() (LeetCode #28)
+
+Topic: Strings  
+Pattern: Substring Search / Brute Force Matching  
+Time Complexity: O(n × m)  
+Space Complexity: O(1)
+
+Key Learning:
+By comparing the substring starting at each index of the main string with the target string, we can detect the first occurrence of the pattern.
+
+Insight:
+Many string problems begin with simple brute-force matching before moving to optimized algorithms like KMP.
 
 ---
 
