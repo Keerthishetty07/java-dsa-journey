@@ -27,7 +27,8 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 15 | String to Integer (atoi) | Strings / Parsing | Controlled State Traversal | Medium |
 | 16 | Reverse Words in a String | Strings | String Tokenization | Medium |
 | 17 | Valid Parentheses (LeetCode #20) | Strings | Pair Matching (StringBuilder) | Easy |
-| 18 | Implement strStr() (LeetCode #28) | Strings | Substring Search | Easy | ✅ |
+| 18 | Implement strStr() (LeetCode #28) | Strings | Substring Search | Easy | 
+| 19 | Decode Ways | Strings / Dynamic Programming | State Transition DP | Medium |
 
 ---
 
@@ -269,6 +270,19 @@ By comparing the substring starting at each index of the main string with the ta
 
 Insight:
 Many string problems begin with simple brute-force matching before moving to optimized algorithms like KMP.
+
+### ✅ Day 19 — Decode Ways (LeetCode #91)
+
+Topic: Strings / Dynamic Programming  
+Pattern: DP State Transition  
+Time Complexity: O(n)  
+Space Complexity: O(n)
+
+Key Learning:
+Dynamic Programming helps break complex problems into smaller overlapping subproblems. By storing results of previous computations, we avoid repeated work.
+
+Insight:
+Problems involving counting possible ways or combinations often lead to a dynamic programming solution.
 
 ---
 
