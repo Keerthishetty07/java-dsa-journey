@@ -29,6 +29,7 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 17 | Valid Parentheses (LeetCode #20) | Strings | Pair Matching (StringBuilder) | Easy |
 | 18 | Implement strStr() (LeetCode #28) | Strings | Substring Search | Easy | 
 | 19 | Decode Ways | Strings / Dynamic Programming | State Transition DP | Medium |
+| 20 | Count and Say | Strings | Sequence Construction | Medium |
 
 ---
 
@@ -271,6 +272,8 @@ By comparing the substring starting at each index of the main string with the ta
 Insight:
 Many string problems begin with simple brute-force matching before moving to optimized algorithms like KMP.
 
+---
+
 ### ✅ Day 19 — Decode Ways (LeetCode #91)
 
 Topic: Strings / Dynamic Programming  
@@ -283,6 +286,21 @@ Dynamic Programming helps break complex problems into smaller overlapping subpro
 
 Insight:
 Problems involving counting possible ways or combinations often lead to a dynamic programming solution.
+
+---
+
+### ✅ Day 20 — Count and Say (LeetCode #38)
+
+Topic: Strings  
+Pattern: Sequence Construction / Run-Length Encoding  
+Time Complexity: O(n × length of string)  
+Space Complexity: O(n)
+
+Key Learning:
+This problem involves generating a sequence by describing the previous string. Counting consecutive characters and constructing the next string step-by-step helps build the sequence.
+
+Insight:
+Many string problems involve recognizing patterns in previous outputs and building the next result accordingly.
 
 ---
 
