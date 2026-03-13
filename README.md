@@ -30,7 +30,7 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 18 | Implement strStr() (LeetCode #28) | Strings | Substring Search | Easy | 
 | 19 | Decode Ways | Strings / Dynamic Programming | State Transition DP | Medium |
 | 20 | Count and Say | Strings | Sequence Construction | Medium |
-
+| 21 | Reverse Linked List | Linked List | Pointer Reversal | Easy |
 ---
 
 ## 📅 Progress Log
@@ -301,6 +301,21 @@ This problem involves generating a sequence by describing the previous string. C
 
 Insight:
 Many string problems involve recognizing patterns in previous outputs and building the next result accordingly.
+
+---
+
+### ✅ Day 21 — Reverse Linked List (LeetCode #206)
+
+Topic: Linked List  
+Pattern: Pointer Reversal  
+Time Complexity: O(n)  
+Space Complexity: O(1)
+
+Key Learning:
+Linked list problems often require careful pointer manipulation. Reversing a linked list involves changing the direction of each node’s next pointer while maintaining references to the remaining nodes.
+
+Insight:
+Tracking previous, current, and next nodes ensures that the list can be reversed without losing access to the remaining nodes.
 
 ---
 
