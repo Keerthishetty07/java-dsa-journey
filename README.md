@@ -31,6 +31,8 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 19 | Decode Ways | Strings / Dynamic Programming | State Transition DP | Medium |
 | 20 | Count and Say | Strings | Sequence Construction | Medium |
 | 21 | Reverse Linked List | Linked List | Pointer Reversal | Easy |
+| 22 | Merge Two Sorted Lists | Linked List | Two Pointer Technique | Easy |
+
 ---
 
 ## 📅 Progress Log
@@ -316,6 +318,21 @@ Linked list problems often require careful pointer manipulation. Reversing a lin
 
 Insight:
 Tracking previous, current, and next nodes ensures that the list can be reversed without losing access to the remaining nodes.
+
+---
+
+### ✅ Day 22 — Merge Two Sorted Lists (LeetCode #21)
+
+Topic: Linked List  
+Pattern: Two Pointer Technique  
+Time Complexity: O(n + m)  
+Space Complexity: O(1)
+
+Key Learning:
+Using a dummy node simplifies linked list construction and avoids edge cases when initializing the head.
+
+Insight:
+Merging sorted data structures efficiently often relies on comparing elements step-by-step using two pointers.
 
 ---
 
