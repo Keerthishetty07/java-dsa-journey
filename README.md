@@ -32,6 +32,7 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 20 | Count and Say | Strings | Sequence Construction | Medium |
 | 21 | Reverse Linked List | Linked List | Pointer Reversal | Easy |
 | 22 | Merge Two Sorted Lists | Linked List | Two Pointer Technique | Easy |
+| 23 | Linked List Cycle | Linked List | Fast & Slow Pointers | Easy |
 
 ---
 
@@ -333,6 +334,21 @@ Using a dummy node simplifies linked list construction and avoids edge cases whe
 
 Insight:
 Merging sorted data structures efficiently often relies on comparing elements step-by-step using two pointers.
+
+---
+
+### ✅ Day 23 — Linked List Cycle (LeetCode #141)
+
+Topic: Linked List  
+Pattern: Fast & Slow Pointers (Floyd’s Algorithm)  
+Time Complexity: O(n)  
+Space Complexity: O(1)
+
+Key Learning:
+Using two pointers moving at different speeds helps detect cycles efficiently without extra space.
+
+Insight:
+If a cycle exists, the fast pointer will eventually catch up with the slow pointer due to circular movement.
 
 ---
 
