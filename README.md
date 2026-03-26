@@ -33,6 +33,7 @@ The focus is on improving problem-solving skills, strengthening logical thinking
 | 21 | Reverse Linked List | Linked List | Pointer Reversal | Easy |
 | 22 | Merge Two Sorted Lists | Linked List | Two Pointer Technique | Easy |
 | 23 | Linked List Cycle | Linked List | Fast & Slow Pointers | Easy |
+| 24 | Remove Nth Node From End of List | Linked List | Two Pointer Technique | Medium |
 
 ---
 
@@ -349,6 +350,21 @@ Using two pointers moving at different speeds helps detect cycles efficiently wi
 
 Insight:
 If a cycle exists, the fast pointer will eventually catch up with the slow pointer due to circular movement.
+
+---
+
+### ✅ Day 24 — Remove Nth Node From End of List (LeetCode #19)
+
+Topic: Linked List  
+Pattern: Two Pointer Technique  
+Time Complexity: O(n)  
+Space Complexity: O(1)
+
+Key Learning:
+Using a dummy node simplifies handling edge cases, especially when removing the head node.
+
+Insight:
+Maintaining a fixed gap between two pointers helps identify positions relative to the end of the list.
 
 ---
 
